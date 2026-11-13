@@ -1,0 +1,7 @@
+id: "sample-go-increases"
+title: "測定値の増加回数"
+published: true
+timeLimitMs: 2000
+memoryLimitMb: 128
+checker: "judge0-default"
+rank: "iron"

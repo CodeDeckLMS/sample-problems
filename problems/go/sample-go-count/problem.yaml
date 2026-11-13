@@ -1,0 +1,7 @@
+id: "sample-go-count"
+title: "非負の測定値"
+published: true
+timeLimitMs: 2000
+memoryLimitMb: 128
+checker: "judge0-default"
+rank: "iron"

@@ -1,0 +1,7 @@
+id: "sample-go-area"
+title: "タイルの面積"
+published: true
+timeLimitMs: 2000
+memoryLimitMb: 128
+checker: "judge0-default"
+rank: "iron"
