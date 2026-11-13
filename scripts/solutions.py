@@ -41,8 +41,8 @@ class Result:
 
 
 def normalize(text: str) -> str:
-    """Judge0の既定比較に合わせ、各行末の空白と前後の空行を無視する。"""
-    return "\n".join(line.rstrip() for line in text.split("\n")).strip()
+    """Judge0の既定比較に合わせ、各行末の空白と末尾の空行を無視する。"""
+    return "\n".join(line.rstrip() for line in text.split("\n")).rstrip()
 
 
 def find_problems() -> dict[str, Path]:
